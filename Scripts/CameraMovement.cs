@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
@@ -11,14 +9,12 @@ public class CameraMovement : MonoBehaviour
     private int _screenWidth;
     private int _screenHeight;
 
-    // Start is called before the first frame update
     void Start()
     {
         _screenWidth = Screen.width;
         _screenHeight = Screen.height;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 camPos = transform.position;
