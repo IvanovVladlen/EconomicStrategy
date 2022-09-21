@@ -30,6 +30,7 @@ public class BuildingsGrid : MonoBehaviour
     {
         if (currentBuilding != null)
         {
+            Debug.Log("currentBuilding");
             var groundPlane = new Plane(Vector3.up, Vector3.zero);
             Ray ray = _mainCamera.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
 

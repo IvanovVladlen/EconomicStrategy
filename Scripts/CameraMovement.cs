@@ -38,7 +38,7 @@ public class CameraMovement : MonoBehaviour
 
         if (useCameraMovement)
         {
-            transform.position = new Vector3(Mathf.Clamp(camPos.x, -150, 150), camPos.y, Mathf.Clamp(camPos.z, -150, 150));
+            transform.position = new Vector3(Mathf.Clamp(camPos.x, -5, 11), camPos.y, Mathf.Clamp(camPos.z, -5, 18));
         }
     }
 }

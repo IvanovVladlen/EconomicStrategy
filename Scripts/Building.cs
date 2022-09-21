@@ -28,7 +28,7 @@ public class Building : MonoBehaviour
             for(var y = 0; y < Size.y; y++)
             {
                 Gizmos.color = new Color(0.88f, 0f, 1f, 0.3f);
-                Gizmos.DrawCube(transform.position + new Vector3(x, 0, y), new Vector3(10, .15f, 10));
+                Gizmos.DrawCube(transform.position + new Vector3(x, 0, y), new Vector3(1, .15f, 1));
             }
         }
     }
